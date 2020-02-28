@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignmnent:2-2</title>
+    <script>
+        do {
+            var grade = prompt("Enter number grade from 0 through 100\nOr enter 999 to end entries");
+            grade = parseInt(grade);
+            if (grade >= 88 && grade <= 100) {
+                alert("Number grade is " + grade + "\nLetter Grade is " + "A");
+
+            } else if (grade >= 80 && grade <= 87) {
+                alert("Number grade is " + grade + "\nLetter Grade is " + "B");
+
+            } else if (grade >= 68 && grade <= 79) {
+                alert("Number grade is " + grade + "\nLetter Grade is " + "c");
+
+            } else if (grade >= 60 && grade <= 67) {
+                alert("Number grade is " + grade + "\nLetter Grade is " + "D");
+
+            } else if (grade < 60 && grade >=0) {
+                alert("Number grade is " + grade + "\nLetter Grade is " + "F");
+
+            } else if (grade != 999) {
+
+            }
+        }
+        while (grade != 999);
+
+    </script>
+</head>
+
+<body>
+    <main>
+        <h1>This page is displayed after the JavaScript is executed</h1>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment2-3</title>
+<script>
+        var sumagain = "y";
+        do {
+            var sum = 0;
+            do {
+                var number = prompt("Enter top number to sum\nfrom 1 through 100");
+                if (number > 100 || number < 1) {
+                     alert("Please enter the number from 1 through 100");
+                }
+            }
+            while (number > 100 || number < 1);
+            for (i = 1; i <= number; i++) {
+                sum += i;
+            }
+            alert("The Number you entered is "+number+"\nThe sum is " + sum);
+            sumagain = prompt("Do another sum?");
+        }
+        while(sumagain == "y");
+    </script>
+</head>
+
+<body>
+    <section>
+        <h1>Thanks for using the Sum of Numbers application!</h1>
+    </section>
+</body>
+
+</html>
